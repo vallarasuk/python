@@ -28,6 +28,8 @@ for ranNum in randomNumbers:
 print(f"total Random number value --> {sum(totalRandomNumValue)}")
 
 # Problem 14: Extracting Digits
+
+
 randomDigits = [123, 456, 789]
 extractDigits = []
 for ran in randomDigits:
@@ -37,13 +39,12 @@ for ran in randomDigits:
 
 print(f"extractDigits  --> {extractDigits}")
 
-
 # Problem 15: Checking Palindrome Strings
 
 words = ["level", "hello", "radar", "python"]
 
 # for word in words:
-    # print(word)
+# print(word)
 
 
 # Problem 16: Removing Duplicates
@@ -63,19 +64,24 @@ vowelsWords = ["apple", "banana", "cherry", "date"]
 vowelsWordsList = ["a,e,i,o,u,y"]
 vowelsWordsLength = []
 
-
 # Problem 18: Reversing Sublist
 subLists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+subReversedValue = []
+for value in subLists:
+    subReversedValue.append(value[::-1])
+
+print(f"subReversedValue -->  {subReversedValue}")
 
 
 # Problem 19: Checking Prime Numbers
 primeNumbers = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-
 # Problem 20: Finding Common Elements
 list1 = [1, 2, 3, 4, 5]
 list2 = [4, 5, 6, 7, 8]
-
+sameValue = []
 for num in list1:
-
-    print(num)
+    if num not in sameValue:
+        sameValue.append(num)
+print(sameValue)

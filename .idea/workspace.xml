@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eacf544-bd4f-41ab-83eb-fab885320840" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/arrayMultiDimension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrayOperations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrayProblems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arraySlicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arraySlicingNextQuestion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrayTraverse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arraySlicingNextQuestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/arraySlicingNextQuestion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +21,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vallarasuk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d368e51f-0bb1-4ed0-8ae0-fe68c80179d1" />
+        <option name="url" value="https://github.com/vallarasuk/python.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/arraySlicingNextQuestion.py" root0="FORCE_HIGHLIGHTING" />
@@ -114,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707996333301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1708439654851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708439654851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
