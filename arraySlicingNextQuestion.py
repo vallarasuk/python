@@ -3,7 +3,7 @@ numbers = [-2, -1, 0, 1, 2, 3, -4, -5, -6]
 negativeNumber = []
 
 for number in numbers:
-    if number % 2:
+    if number < 0:
         negativeNumber.append(number)
 
 print(f"negativeNumber --> {negativeNumber}")
@@ -42,13 +42,14 @@ print(f"extractDigits  --> {extractDigits}")
 # Problem 15: Checking Palindrome Strings
 
 words = ["level", "hello", "radar", "python"]
-
-# for word in words:
-# print(word)
+palindromeString = []
+for word in words:
+    if word == word[::-1]:
+        palindromeString.append(word)
+print(f"palindromeString Number --> {palindromeString}")
 
 
 # Problem 16: Removing Duplicates
-
 duplicateRanNum = [1, 2, 3, 4, 2, 5, 6, 3]
 removedDuplicateNum = []
 
@@ -73,15 +74,30 @@ for value in subLists:
 
 print(f"subReversedValue -->  {subReversedValue}")
 
-
 # Problem 19: Checking Prime Numbers
 primeNumbers = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Prime Status: [True, True, False, True, False, True, False, False, False]
+primeNumberValue = []
+for number in primeNumbers:
+    if number > 1:
+        is_prime = True
+        for i in range(2, number):  # Iterate from 2 to number - 1
+            if number % i == 0:
+                is_prime = False
+                break
+        primeNumberValue.append(is_prime)
+    else:
+        primeNumberValue.append(False)
+
+print(f"Prime Status: {primeNumberValue}")
+
 
 # Problem 20: Finding Common Elements
 list1 = [1, 2, 3, 4, 5]
 list2 = [4, 5, 6, 7, 8]
 sameValue = []
 for num in list1:
-    if num not in sameValue:
+    if num in list2:
         sameValue.append(num)
-print(sameValue)
+print(f"sameValue --> {sameValue}")
